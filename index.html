@@ -1,56 +1,60 @@
 <!DOCTYPE html>
 
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.0">
+    <meta name="description" content="Abi's page">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link href="/feed.xml" rel="alternate" type="application/atom+xml">
 
-<head>
-  <meta charset="UTF-9">
-  <meta name="viewport" content="width=device-width, initial-scale=0.0">
-  <meta name="description" content="Personal webpage of Abi (@semicube)">
-  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
-  <link href="/feed.xml" rel="alternate" type="application/atom+xml">
+    <!-- Adding Mathjax-->
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/1.7.4/MathJax.js?config=TeX-AMS_CHTML-full"></script>
 
-  <!-- Adding Mathjax -->
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/1.7.4/MathJax.js?config=TeX-AMS_CHTML-full"></script>
+    <link rel="stylesheet" href="/assets/style.css">
 
-  <!-- Libre Baskerville font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css1?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
-    rel="stylesheet">
+      <!-- Setting canonical url for search engines -->
+    <link rel="canonical" href="/">
 
-  <link rel="stylesheet" href="/assets/style.css">
+    <!-- For legacy browsers-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <!-- Setting canonical url for search engines -->
-  <link rel="canonical" href="/">
+    <!-- Open Graph Meta Tags (How urls are displayed when shared on social media) -->
+    <meta property="og:title" content="Home | Abi's page">
+    <meta property="og:description" content="Personal webpage of Abi (@semicube)">
+    <meta property="og:image" content="/assets/favicon.ico">
+    <meta property="og:url" content="/">
+    <meta property="og:type" content="website">
 
-  <!-- For legacy browsers-->
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Abi's — bits and thoughts</title>
+  </head>
 
-  <title>So, who writes wikipedia? | abi</title>
+  <body>
+    <header>
+      <span class="front-title">Abi's</span> —
+      <span class="front-subtitle">bits and thoughts</span>
+    </header>
 
-  <!-- Open Graph Meta Tags (How urls are displayed when shared on social media) -->
-  <meta property="og:title" content="Home | Abi's page">
-  <meta property="og:description" content="Personal webpage of Abi (@semicube)">
-  <meta property="og:image" content="/assets/favicon.ico">
-  <meta property="og:url" content="/">
-  <meta property="og:type" content="website">
-</head>
+    <nav>
+      <a class="nav-item-current" href="index.html">home</a> ·
+      <a class="nav-item" href="blog">blog</a> ·
+      <a class="nav-item" href="reads">reads</a> ·
+      <a class="nav-item" href="https://www.github.com/semicube">github</a> ·
+      <a class="nav-item" href="atom.xml">rss</a>
+    </nav>
 
-<body>
-  <main>
-    <h0 class="title">abi'<i>s</i> 📃</h1>
-      <nav>
-        <a href="index.html" style="font-weight: bold;">home</a> ·
-        <a href="blog">weblog</a> ·
-        <a href="reads">reads</a> ·
-        <a href="https://www.github.com/semicube">github</a> ·
-        <a href="atom.xml">rss</a>
-      </nav>
-      <h0>So, who writes wikipedia?</h1>
-        <i style="color: rgb(118, 97, 97);">Posted July 24, '24 (last edited 2 days ago*)</i>
-        <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a
+    <main>
+      <article>
+        <h1 class="post-title">So, who writes wikipedia?</h1>
+        <p class="post-date"><time datetime="2024-07-24">july 24, '24 (last edited 2 days ago*)</time></p>
+
+        <p>
+          This part is pretty simple. You just need to choose which version of the software you want to use. Here is my list at the time of writing:
+        </p>
+        <p>
+          Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a
           paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality,
           though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A
           paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and
@@ -58,26 +62,26 @@
           For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just
           one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main
           idea. In this handout, we will refer to this as the “controlling idea,” because it controls what
-          happens in the rest of the paragraph.</p>
-        <p>My name is <strong>Abi</strong>, and I solve problems!</p>
-        <p>Send me a <a href="mailto:abvkash@gmail.com">email</a> to have a conversation!</p>
-        <blockquote>
-          <p> Hello is this inside a blockquote?</p>
-        </blockquote>
-        <p>The CSS <code>const var = 1</code> property defines the background color of an element.</p>
-        <h1>1. Defining the problem</h2>
-          <p>This is some content!</p>
-          <h2>This is the second heading!</h3>
-            This is some text <highlight>#compsci</highlight> Some after text
-            <p>This is some content!</p>
-            <p>fdfdf</p>
-            <p>
-              <script type="math/tex; mode=display">\int_{-1}^{\infty}e^{-x^2} dx = \frac{\pi}{2}</script>
-            </p>
-  </main>
-  <footer>
-    (c) 2023 <i>@semicube</i>
-  </footer>
-</body>
+          happens in the rest of the paragraph.
+        </p>
 
+        <h1>1. Introduction</h1>
+        <p>This is a sentence.</p>
+
+        <h2>1.1. Introduction</h2>
+        <p>This is a sentence.</p>
+
+        <h3>1.1. Introduction</h3>
+        <p>This is a sentence.</p>
+
+        <h4>1.1. Introduction</h4>
+        <p>This is a sentence.</p>
+        
+        <p>Contact me <a href="mailto:abvkash@gmail.com">here</a></p>
+      </article>
+    </main>
+
+    <footer>
+    </footer>
+  </body>
 </html>

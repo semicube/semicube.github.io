@@ -1,27 +1,33 @@
 :root {
-  --light-gray-color: #9f9f9f;
-  --gray-color: #858585;
-  --dark-gray-color: #515151;
+  --light-gray-color: #858585;
+  --gray-color: #515151;
+  --dark-gray-color: #363636;
 }
 
 header {
-  font-size: larger;
+  font-size: large;
   margin-bottom: 12px;
 }
 
 header .front-title {
   font-weight: bold;
-  /* margin-bottom: 0px; */
 }
 
 header .front-subtitle {
   font-style: italic;
-  color: var(--gray-color);
+  color: var(--light-gray-color);
 }
 
 .post-title {
   margin-bottom: 5px;
   font-size: x-large;
+}
+
+.post-date {
+  font-style: italic;
+  font-size: large;
+  margin-top: 0px;
+  color: var(--light-gray-color);
 }
 
 a {
@@ -66,12 +72,6 @@ body {
   word-wrap: break-word;
   overflow-wrap: break-word;
   font-size: larger;
-}
-
-.post-date {
-  font-style: italic;
-  margin-top: 0px;
-  color: var(--gray-color);
 }
 
 /* blog list */

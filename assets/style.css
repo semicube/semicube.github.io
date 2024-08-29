@@ -1,6 +1,6 @@
 header {
-  font-size: large;
-  margin-bottom: 12px;
+  font-size: larger;
+  margin-bottom: 5px;
 }
 
 header .front-title {
@@ -14,7 +14,7 @@ header .front-subtitle {
 
 .post-title {
   margin-bottom: 5px;
-  font-size: x-large;
+  font-size: larger;
 }
 
 .post-date {
@@ -24,14 +24,18 @@ header .front-subtitle {
   color: gray;
 }
 
+p a, span a {
+  border-bottom: 1px solid gray;
+}
+
 a {
   text-decoration: none;
-  color: gray;
-  border-bottom: 1px dotted black;
+  color: black;
+  /* border-bottom: 1px solid gray; */
 }
 
 a:hover {
-  color: black;
+  color: gray;
 }
 
 nav {
@@ -39,11 +43,11 @@ nav {
 }
 
 nav .nav-item-current {
-  color: black;
+  color: gray;
 }
 
 p {
-  line-height: 1.5em;
+  line-height: 1.4em;
 }
 
 h1 {
@@ -55,7 +59,7 @@ h2 {
 }
 
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif; 
   margin: auto;
   padding: 20px;
   padding-top: 40px;
@@ -74,7 +78,7 @@ body {
 }
 
 .blog-list li {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   display: flex;
 }
 
@@ -83,14 +87,6 @@ body {
   display: inline-block;
   color: gray;
   flex: 0 0 125px;
-}
-
-.blog-list-title {
-  color: black;
-}
-
-.blog-list-title:hover {
-  color: gray;
 }
 
 /* blog list end */
